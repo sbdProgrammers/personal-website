@@ -1,0 +1,62 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    padding: 0 25px;
+    background-color: #ec4c7d;
+}
+
+.navbar .nav-left img {
+    height: 55px;
+    position: absolute;
+    top: -23px;
+    left: 5px;
+}
+
+.navbar .nav-left a {
+    line-height: 65px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.navbar .nav-right {
+    float: right;
+}
+
+.navbar .nav-right input {
+    border: none;
+    margin-top: -47px;
+    display: block;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.navbar .nav-right input:focus {
+    outline: 0;
+    padding: 0 5px;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    height: 15px;
+    top: 3px;
+    right: 2px;
+    background-color: #ffffff;
+    padding: 5px 8px;
+}
