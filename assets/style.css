@@ -60,3 +60,53 @@ body {
     background-color: #ffffff;
     padding: 5px 8px;
 }
+
+.section {
+    width: 40%;
+    float: left;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.section img {
+    width: 70%;
+}
+
+.top-section .section:nth-child(1) {
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.top-section .section:nth-child(2) {
+    margin-top: 7%;
+}
+
+.top-section {
+    background-image: url(images/header-bg.png);
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-section h2 {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.top-section h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    color: #ec4e8c;
+}
+
+.button {
+    color: #fff;
+    background-color: #ec4e8c;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
