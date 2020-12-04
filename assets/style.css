@@ -11,10 +11,19 @@ p {
     color: gray;
 }
 
+.title {
+    font-size: 30px; 
+    text-align: center; margin-top: 100px;
+}
+
 .navbar {
     height: 80px;
     padding: 0 25px;
     background-color: #ec4c7d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar .nav-left img {
@@ -74,6 +83,10 @@ p {
 
 .section img {
     width: 70%;
+}
+
+.top-section {
+    margin-top: 105px;
 }
 
 .top-section .section:nth-child(1) {
@@ -186,4 +199,27 @@ p {
 
 .progressbar .two {
     padding-left: 80px;
+}
+
+.contact {
+    margin-top: 450px;
+    margin-bottom: 100px;
+}
+
+.contact input {
+    height: 28px;
+    width: 26%;
+    margin-left: 26px;
+    padding: 0 10px;
+}
+
+.contact textarea {
+    width: 86%;
+    margin-left: 27px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
 }
