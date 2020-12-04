@@ -7,6 +7,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    color: gray;
+}
+
 .navbar {
     height: 80px;
     padding: 0 25px;
@@ -109,4 +113,77 @@ body {
     padding: 8px 20px;
     border-radius: 5px;
     display: inline-block;
+}
+
+.biography-section .section:nth-child(2) {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.biography-section {
+    background-image: url(images/biography-bg.png);
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work-section {
+    background-image: url(images/latest-work-bg.png);
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 80px 150px 80px;
+}
+
+.work-section img {
+    width: 28%;
+}
+
+.client {
+    text-align: center;
+}
+
+.client h2 {
+    margin-bottom: 50px;
+}
+
+.client p{
+    margin: 0;
+}
+
+.client .extra {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.client .extra-info {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+        background-color: #ed4b73;
+    padding: 60px;
+    width: 50%;
+    border-radius: 8px;
+    margin-left: 21%;
+}
+
+.progress {
+    border: 1px solid #000;
+}
+
+.progressbar p {
+    text-align: left;
+    color: #333333;
+}
+
+.progressbar .one {
+    padding-left: 80px;
+}
+
+.progressbar .two {
+    padding-left: 80px;
 }
